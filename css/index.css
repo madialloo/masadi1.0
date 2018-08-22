@@ -1,0 +1,207 @@
+html {
+    padding: 0; /* has a value by default*/
+    margin: 0; /* has a value by default*/
+}
+body {
+    font: 14px/1.5 Roboto, Arial; /*font size + line-height + font-family*/
+    background-color: #f4f4f4; /*#f4f4f4*/
+    padding: 0; /* has a value by default*/
+    margin: 0; /* has a value by default*/
+}
+/* Global container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /*something goes outside of the container, will be hidden*/
+}
+ul {
+    padding: 0; /* has a value by default*/
+    margin: 0; /* has a value by default*/
+}
+.buttonSubmit {
+    height: 38px;
+    background: orangered  ;
+    border:0;
+    padding: 0 20px;
+    color: #ffffff;
+}
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*** Header ***/
+header {
+    background-color: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px; /*height will adjust when screen get smaller*/
+    border-bottom: #e8491d 3px solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    /* float: left; */
+    display: inline;
+    padding: 0 20px 0 20px ;
+}
+header .branding {
+    float: left;
+}
+header .branding h2 {
+    margin: 0;
+}
+
+/* Navigation bar */
+header nav {
+    /* float: right; */
+    display: inline;
+    /* margin-top: 10px; */
+
+}
+header .highlight, header .current a {
+    color: orangered;
+    font-weight: bold;
+}
+header a:hover {
+    font-weight: bold;
+    color: indigo;
+}
+
+/* Showcase */
+.showcase {
+    min-height: 400px;
+    background: url('../images/pexels-photo-916335.jpeg') no-repeat -300px /* position on x-axes*/ -400px/* position on y-axes*/;
+    text-align: center;
+    color: #ffffff;
+}
+.showcase h2 {
+    margin-top: 0px; /* margin-top: 100px; bugging if applied*/
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.showcase {
+    font-size: 20px;
+}
+/*** Newsletter ***/
+.newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background-color: #35424a;
+
+}
+.newsletter h2 {
+    float: left;
+}
+.newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+.newsletter input[type = "email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/*** Boxes ***/
+.boxes {
+    margin-top: 20px;
+}
+.box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+.boxes .box img {
+    width: 90px;
+}
+
+/*** Article  ***/
+article.main-col {
+    float: left;
+    width: 65%;
+}
+
+/*** Sidebar ***/
+aside.sidebar {
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+}
+aside.sidebar .quote input, aside.sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+/*** Services ***/
+.services.services {
+    list-style-type: none;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+/*** Contact Us ***/
+.contact {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+.contact input {
+    width: 60%;
+}
+.contact label {
+    line-height: 2;
+    width: 60%;
+    font: 15px Arial, Menlo;
+    color: indigo;
+}
+.contact textarea {
+    padding: 10px;
+    width: 60%;
+}
+
+/*** Footer ***/
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+/*** Media Queries ***/
+@media (max-width: 768px) {
+
+    header.branding, header nav, header nav li, .newsletter h2, .newsletter form, .boxes .box, article.main-col,
+    aside.sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header {
+        padding-bottom: 20px;
+    }
+    .showcase h2 {
+        margin-top: 20px;
+    }
+
+    .newsletter button, .quote button {
+        display: block;
+        width: 100%;
+    }
+    .newsletter form input[type="email"], .newsletter form textarea, .newsletter form input {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+
+}
