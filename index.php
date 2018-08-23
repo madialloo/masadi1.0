@@ -46,7 +46,7 @@
     <section class="newsletter">
         <div class="container">
             <!-- contact form -->
-            <h2>Subscribe to our newsletter</h2>
+            <h2>Subscribe to our daily newsletter</h2>
             <form>
                 <input type="email" placeholder="Enter your email here...">
                 <button type="submit" class="buttonSubmit">Submit</button>
