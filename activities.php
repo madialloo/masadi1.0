@@ -13,10 +13,11 @@
 <body>
     <!-- begin complete menu -->
     <header>
+        <div class="container">
         <!--company logo-->
         <div class="branding">
-<!--            <h3><a href="#" title="Logo-Masadi"><img src="images/logoMasadi.png" alt="logo-Masadi"/></a></h3>-->
-            <h2><span class="highlight">Masadi</span></h2>
+           <!-- <h3><a href="#" title="Logo-Masadi"><img src="images/company-logo.png" alt="logo-Masadi"/></a></h3> -->
+            <!-- <h2><span class="highlight">Masadi</span></h2> -->
         </div>
         <!-- navigation menu -->
         <nav>
@@ -28,40 +29,47 @@
                 <li><a href="contact.php" title="Contact">Contact</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <!-- end complete menu -->
     <!--showcase principal title | presentation text-->
     <section class="showcase">
-        <h2>Affordable IT Consulting services</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias fugit mollitia quibusdam similique? Ex inventore nisi quia. Culpa esse excepturi nihil odio quia quidem saepe sequi tenetur velit voluptatum?</p>
-        <span class="toPexels"><a>Photo by Daria Shevtsova from Pexels</a></span>
+        <!-- showcase image -->
+        <div class="container">
+            <h2>IT CONSULTING & DESIGN</h2>
+            <p>We design your network...<br>
+            And your visibility to the outside world !</p>
+        </div>
     </section>
-    <!--newsletter form -->
+    <!-- end showcase -->
+    <!-- begin newsletter form -->
     <section class="newsletter">
         <div class="container">
+            <!-- contact form -->
             <h2>Subscribe to our newsletter</h2>
             <form>
-                <input type="email" placeholder="Enter email...">
+                <input type="email" placeholder="Enter your email here...">
                 <button type="submit" class="buttonSubmit">Submit</button>
             </form>
+            <!-- end contact form -->
         </div>
     </section>
     <section class="boxes">
         <div class="container">
             <div class="box">
                 <img src="images/logo.png" alt="Image 1"/>
-                <h3>HTML 5</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, iure.</p>
+                <h3>Network Support</h3>
+                <p>We maintain and support your network architecture wether remotely or on site. Just <a href="contact.php">Give us a call!</a></p>
             </div>
             <div class="box">
                 <img src="images/css.png" alt="Image 2"/>
-                <h3>CSS Styling</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, praesentium?</p>
+                <h3>IT Support</h3>
+                <p>Need a helpdesk assitant, we got you ! <a href="contact.php">Contact us</a></p>
             </div>
             <div class="box">
                 <img src="images/pexels-photo-916335.jpeg" alt="Image 3"/>
                 <h3>Graphic Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, doloremque!</p>
+                <p>Worried about your presence on internet, we also take care of your online visibility ! <a href="contact.php">Talk to a designer or a developer here</a></p>
             </div>
         </div>
     </section>

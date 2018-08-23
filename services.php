@@ -14,10 +14,11 @@
 
     <!-- begin complete menu -->
     <header>
+        <div class="container">
         <!--company logo-->
         <div class="branding">
-            <!--            <h3><a href="#" title="Logo-Masadi"><img src="images/logoMasadi.png" alt="logo-Masadi"/></a></h3>-->
-            <h2><span class="highlight">Masadi</span></h2>
+           <!-- <h3><a href="#" title="Logo-Masadi"><img src="images/company-logo.png" alt="logo-Masadi"/></a></h3> -->
+            <!-- <h2><span class="highlight">Masadi</span></h2> -->
         </div>
         <!-- navigation menu -->
         <nav>
@@ -29,6 +30,7 @@
                 <li><a href="contact.php" title="Contact">Contact</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <!-- end complete menu -->
 
